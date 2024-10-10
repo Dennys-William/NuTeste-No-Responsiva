@@ -1,0 +1,177 @@
+section.slider {
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 !important;
+    
+}
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+.slider-content input {
+    display: none;
+}
+.slide-box {
+    width: 25%;
+    height: auto;
+    text-align: center;
+    transition: 1s;
+}
+/* Letras */
+.L {
+    margin-top: 150px;
+    text-align: justify;
+}
+.L1 {
+    border: 1px solid black;
+    width: 22%;
+    height: 34vh;
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+    border-radius: 10%;
+    padding: 1vh;
+    
+}
+
+.L em {
+    font-weight: bolder;
+    font-size: 1.4rem;
+    padding-bottom: 2vh;
+    display: flex;
+}
+
+.L p {
+    height: 35%;
+    text-align: justify;
+    
+}
+.L a {
+    text-decoration: none;
+    color: purple;
+    margin-top: 20px;
+    font-weight: 550;
+    display: inline-block;
+    height: 3vh;
+    
+    padding-right: 4vh;
+}
+.L a:hover {
+   border-bottom: 1px solid purple;
+}
+.L a {
+    background-image: url(/Img/Nubank2/Seta\ para\ do\ lado\ icone2.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    
+}
+
+.L .pe {
+    width: 32px;
+}
+
+.L1 .seta-o {
+    width: 20px;
+    margin-left: 1vh;
+    float: right;
+    outline: 1px solid red;
+}
+
+/* Letras */
+.slide-box img {
+    width: 100%;
+   
+}
+
+
+.nav-auto, .nav-manual {
+   width: 100%;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   margin-top: 32%;
+}
+
+.nav-auto div, .nav-manual .manual-btn {
+   padding: 8px;
+   outline: 1px solid black;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: 1s;
+   
+}
+
+.nav-manual .manual-btn {
+    position: static;
+}
+
+.nav-manual .manual-btn:hover{
+    background: red;
+}
+.nav-auto div:not(:last-child), .nav-manual .manual-btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3 {
+    background: red;
+}
+
+#radio1:checked ~ .primeiro {
+    margin-left: 0%;
+}
+#radio2:checked ~ .primeiro {
+    margin-left: -25%;
+}
+#radio3:checked ~ .primeiro {
+    margin-left: -50%;
+}
+
+@media (max-width:786px){
+    .L {
+        margin-top: 150px;
+        text-align: justify;
+    }
+    .L1 {
+        border: 1px solid black;
+        width: 22%;
+        height: 34vh;
+        float: left;
+        font-size: 18px;
+        margin-left: 20px;
+        border-radius: 10%;
+        padding: 1vh;
+        flex-direction: column;
+    }
+    
+    .L em {
+        font-weight: bolder;
+        font-size: 1.4rem;
+        padding-bottom: 2vh;
+        display: flex;
+        
+    }
+    
+    .L p {
+        height: 35%;
+        text-align: justify;
+    }
+    .L a {
+        text-decoration: none;
+        color: purple;
+        margin-top: 20px;
+        padding: 1.3vh;
+        font-weight: 550;
+        display: inline-block;
+        
+    }
+    .L a:hover {
+       border-bottom: 1px solid purple;
+    }
+    .L .pe {
+        width: 32px;
+    }
+}

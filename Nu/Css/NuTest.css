@@ -1,0 +1,898 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.geral {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  width: 100%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+  align-items: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: #fff;
+ outline: 1px solid gray;
+ position: fixed;
+ top: 0px;
+}
+.geral a {
+    color: black;
+    text-decoration: none;
+    
+}
+.inicio {
+    display: flex;
+    padding-left: 9vh;
+    transition-duration: 1s;
+}
+
+.inicio ul {
+    display: flex;
+    
+}
+.inicio li{
+    list-style: none;
+    padding-left: 5vh;
+    transition-duration: 0.3s;
+
+}
+
+.inicio img  {
+    transition-duration: 0.3s;
+    outline: 1px solid purple;
+    outline-offset: 0.4vh;
+    
+}
+.inicio img:hover {
+   outline: 1px solid purple;
+   outline-offset: 1.2vh;
+}
+/* Decoração */
+.inicio li:hover {
+   opacity: 0.5;
+}
+/* login */
+.login {
+    padding-right: 2vh;
+    float: left;
+    padding-bottom: 1vh;
+}
+.login a {
+    color: purple;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.login a:hover {
+    border-bottom: 1px solid purple;
+}
+.login-1 {
+  width: 20px;
+  transform: translateY(2px);
+}
+/*conteudo*/ 
+.geral-1 {
+    margin-top: 9vh;
+    background: url(../Img/Nubank/img/img1.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.letras {
+    color: white;
+    float: left;
+    margin-top: 40vh;
+    margin-left: 20vh;
+    width: 50%;
+   
+}
+.letras h2 {
+    font-size: 40px;
+}
+.letras h3 {
+    font-size: 21px;
+}
+/*cartão */
+.ca {
+    background: white;
+    height: 40vh;
+    width: 40vh;
+    float: right;
+    margin-top: 32vh;
+    margin-right: 10vh;
+    padding: 30px;
+    border-radius: 15%;
+}
+.ca h3 {
+    font-size: 25px;
+    padding-bottom: 5vh;
+}
+.ca1{
+    padding-bottom: 5vh
+}
+
+.bot{
+        background-color: transparent;
+        border-width: 0px 0px 1px;
+        padding: 8px 24px 8px 0px;
+        outline: none;
+        width: 100%;
+        border-bottom-style: solid;
+    
+}
+
+.bot1 {
+    width: 40vh;
+    height: 6vh;
+    border-radius: 6.25rem;
+    color: white;
+    border: 1px solid purple;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+
+.bot1 p {
+    float: left;
+    padding-left: 2vh;
+    padding-top: 4px;
+    
+}
+.bot1 {
+    background: url(../Img/Nubank2/Seta\ para\ do\ lado\ icone2.png) rgba(128, 0, 128, 0.92);
+   /* background-image: url(/Nu/Img/Nubank2/Seta\ para\ do\ lado\ icone2.png);*/
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 90%;
+
+}
+
+
+/*Geral-3 */
+.geral-3 img {
+    width: 600px;
+    height: 400px;
+    float: right;
+    padding-right: 5vh;
+    margin-top: 20vh;
+    
+}
+.geral-3{
+    height: 600px;
+    background: rgba(128, 128, 128, 0.238);
+}
+.letras1 {
+    float: left;
+    margin-top: 30vh;
+    width: 40%;
+    height: 40%;
+    margin-left: 10vh;
+    
+}
+.letras1 h2 a {
+    color: purple;
+    font-size: 7vh;
+    padding-bottom: 2vh;
+    text-decoration: none;
+}
+
+.letras1 p {
+    font-size: 4vh;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.letras1 a:hover {
+  text-decoration: underline;
+}
+
+.letras1 .nu-0 {
+    color: purple;
+    font-size: 3vh;
+    text-decoration: none;
+}
+
+.letras1 .nu-0 {
+    background: url(../Img/Nubank2/Seta\ Direita.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-right: 4vh;
+}
+
+.letras1 .nu-0:hover {
+    border-bottom: 1px solid purple;
+    text-decoration: none;
+}
+
+
+/*Geral-4 */
+.geral-4 {
+    background: purple;
+    height: 80vh;
+    color: white;  
+    
+}
+.geral-4 h2 a {
+    font-size: 7vh;
+    color: white;
+    text-decoration: none;
+}
+.geral-4 h2 a:hover {
+    text-decoration: underline;
+}
+
+.geral-4 p {
+    font-size: 4vh;
+    margin-top: 3vh;
+    margin-bottom: 7vh;
+}
+
+.geral-4 .nu-1 {
+    color: white;
+ 
+    background: url(../Img/Nubank2/Seta\ branca\ fundo\ preto\ icone.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-right: 3.3vh;
+    font-size: 3vh;
+    text-decoration: none;
+}
+.geral-4 .nu-1:hover {
+   border-bottom: 1px solid white;
+   
+}
+
+
+.letras2{
+    
+    float: right;
+    margin-top: 19vh;
+    margin-right: 5vh;
+    height: 50vh;
+    width: 50%;
+}
+
+
+
+.geral-4 img {
+    margin-top: 13vh;
+    margin-left: 4vh;
+    width: 38%;
+    height: 40%;
+    float: left;
+}
+
+
+/*geral 5 */
+.geral-5 {
+    height: 120vh;
+}
+
+
+.caixa h2 {
+   font-size: 7vh;
+   margin-left: 25vh;
+   margin-top: 10vh;
+   
+}
+.caixa {
+    float: left;
+    height: 80vh;
+    width: 50%;
+}
+
+.caixa-g {
+    margin-left: 19vh;
+    margin-top: 9vh;
+    float: left;
+}
+.caixa-g p {
+    padding-bottom: 20px;
+    font-family:sans-serif
+}
+.caixa-g h3 {
+    font-size: 5vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.caixa1 {
+    padding-bottom: 10vh;
+}
+.caixa2 {
+    padding-bottom: 10vh;
+}
+
+.su {
+    width: 32px;
+}
+
+/*Geral-6 */
+.geral-6 {
+    height: 95vh;
+    width: 100%;
+}
+.geral-6 h2 {
+    color: purple;
+    font-size: 6.2vh;
+    margin-left: 10vh;
+    padding-bottom: 4vh;
+}
+.caixa-g1 {
+    float: left;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+.caixa-p {
+    height: 75vh;
+    background: rgba(128, 128, 128, 0.095);
+    width: 40%;
+    float: left;
+    margin-left: 5vh;
+    border-radius: 10%;
+    
+}
+.p-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10% 10% 0% 0%;
+}
+/*Geral-6 Letras*/
+.letras3{
+    width: 89%;
+    padding: 3vh;
+}
+
+.caixa-p h3 {
+    color: purple;
+    font-size: 3.5vh;
+}
+.caixa-p p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.7vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.nu-2 {
+    text-decoration: none;
+    color: purple;
+    font-size: 2.8vh;
+}
+.nu-2{
+    background: url(../Img/Nubank2/Seta\ para\ do\ lado\ icone.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-right: 3.7vh;
+}
+
+.nu-2:hover{
+    border-bottom: 1px solid purple;
+}
+
+
+/*Geral-7*/
+
+.geral-7 {
+    background: rgba(128, 128, 128, 0.077);
+    height: 90vh;
+}
+
+.geral-7 img {
+    width: 45%;
+    margin-top: 10%;
+    margin-right: 4%;
+    float: right;
+    
+}
+
+
+
+.letras4 {
+    float: left;
+    width: 35%;
+    height: 40vh;
+    margin-top: 18%;
+    margin-left: 5%;
+    
+}
+.letras4 h2 a{
+    text-decoration: none;
+    color: purple;
+    font-size: 7vh;
+    padding-bottom: 3vh;
+    display: inline-block;
+}
+.letras4 h2 a:hover {
+    text-decoration: underline;
+}
+
+
+.letras4 p {
+    font-size: 3.5vh;
+    padding-bottom: 2.2vh;
+
+}
+
+.nu-3 {
+    text-decoration: none;
+    color: purple;
+    font-size: 2.8vh;
+    
+}
+.nu-3 {
+    background: url(../Img/Nubank2/Seta\ Direita.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-right: 3.2vh;
+    
+    
+}
+.nu-3:hover {
+    border-bottom: 1px solid purple;
+}
+
+/* "Duvidas" */
+.duv {
+    text-decoration: none;
+    display: inline-block;
+    width: 3.3%;
+    height: 5.5%;
+    background: rgba(72, 1, 72, 0.89);
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    transition-duration: 0.8s;
+    align-items: center;
+    border-radius: 30%;
+    background: padding-box;
+    
+}
+
+.duv:hover {
+    transform: rotate(360deg);
+    background: rgba(72, 1, 72, 0.89);
+    border-radius: 50%;
+}
+
+
+
+.duv1 {
+   width: 100%;
+   height: 100%;
+   
+   background: url(../Img/Nubank2/Ponto\ de\ Interrogação\ icone.png);
+   background-size: 30px;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   border-radius: 50%;
+   transition-duration: 1s;
+}
+
+/* Geral 8 */
+
+.geral-8 {
+    background: black;
+    height: 110vh;
+    display: flex;
+}
+
+.foto {
+    height: 100%;
+    background: purple;
+    width: 50%;
+}
+.foto1 {
+    height: 100%;
+    background: rgb(42, 0, 42);
+    width: 50%;
+}
+
+.foto-p {
+    width: 90%;
+    height: 62vh;
+    margin-left: 5vh;
+    margin-top: 10vh;
+    object-fit: cover;
+}
+
+.foto1-p{
+    width: 90%;
+    height: 62vh;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    object-fit: cover;
+}
+
+
+.letras5 {
+    width: 90%;
+    margin-left: 5vh;
+    margin-top: 10vh;
+}
+
+.letras5 h2 {
+    font-size: 300%;
+    color: white;
+    padding-bottom: 2vh;
+}
+.letras5 p {
+    font-size: 140%;
+    color: white;
+    padding-bottom: 4vh;
+}
+.letras5 a {
+    text-decoration: none;
+    font-size: 120%;
+    color: white;
+}
+.letras5 a {
+    padding-right: 4vh;
+    background: url(../Img/Nubank2/Seta\ branca\ fundo\ preto1\ icone.png);
+    
+    background-size: 16%;
+    background-repeat: no-repeat;
+    background-position: 99% 76%;
+}
+.letras5 a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* Geral 9 */
+
+.geral-9 {
+    height: 70vh;
+    background: rgba(128, 128, 128, 0.077);
+}
+
+.foto2 img {
+    width: 35%;
+    height: auto;
+    margin-left: 10vh;
+    margin-top: 5%;
+    float: left;
+}
+
+.letras6{
+    
+    float: right;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.letras6 h2 {
+    color: purple;
+    font-size: 300%;
+    padding-bottom: 2vh;
+}
+
+.letras6 p {
+    font-size: 300%;
+    padding-bottom: 3vh;
+}
+
+.letras6 a {
+    color: purple;
+    text-decoration: none;
+}
+.letras6 a:hover {
+    border-bottom: 1px solid purple;
+}
+.letras6 a {
+    font-size: 120%;
+    background: url(../Img/Nubank2/Seta\ para\ do\ lado\ icone.png);
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 98%;
+    padding-right: 4vh;
+}
+/*geral-10 */
+
+.geral-10 {
+    height: 100vh;
+    padding-bottom: 10vh;
+} 
+
+.letras7 {
+    width: 80%;
+    margin-left: 9vh;
+}
+.letras7 h2 {
+    font-size: 7vh;
+    padding-bottom: 2vh;
+}
+
+.letras7 a {
+    color: purple;
+    text-decoration: none;
+    font-size: 3vh;
+}
+.letras7 a {
+    background: url(../Img/Nubank2/Seta\ pro\ lado\ superio\ direito\ icone.png);
+    background-size: 30px;
+    background-position: 102%;
+    background-repeat: no-repeat;
+    padding-right: 3.5vh;
+    
+
+}
+.letras7 a:hover {
+    border-bottom: 1px solid purple;
+}
+
+.c1 {
+    margin-top: 4vh;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+}
+.c2 {
+    outline: 1px solid rgba(128, 128, 128, 0.424);
+    width: 30%;
+    height: 81vh;
+    overflow: hidden;
+    margin-left: 6vh;
+    border-radius: 10%;
+}
+.Imagem4 {
+    width: 100%;
+    height: 47vh;
+    object-fit: cover;
+}
+.letras8 {
+    padding: 4vh;
+    background: rgba(128, 128, 128, 0.077);
+}
+
+.letras8 h2 {
+    font-size: 2.5vh;
+    padding-bottom: 2vh;
+}
+.letras8 p {
+    font-size: 3.5vh;
+    padding-bottom: 2vh;
+}
+.letras8 a {
+    color: purple;
+    text-decoration: none;
+    padding-right: 4vh;
+     
+    background: url(../Img/Nubank2/Seta\ Direita.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+}
+.letras8 a:hover {
+    border-bottom: 1px solid purple;
+}
+
+/* Geral-11 */
+.geral-11 {
+    height: 270vh;
+    background: gray;
+}
+
+.post-g {
+    height: 270vh;
+}
+
+.post, .post1, .post2 {
+   width: 100%;
+   height: 90vh;
+   background: url(../Img/Nubank/img/img5.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.post1 {
+    background: url(../Img/Nubank/img/img6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.post2 {
+    background: url(../Img/Nubank/img/img7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Geral-11 Letras */
+
+
+.letras9 {
+    width: 40%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 14%;
+}
+.letras9 h2 {
+    font-size: 3rem;
+    line-height: 1.16;
+    color: white;
+    padding-bottom: 3vh;
+}
+.letras9 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding-right: 3vh;
+   
+    background-image: url();
+    
+
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.letras9 a:hover {
+    border-bottom: 1px solid white;
+}
+
+
+
+
+.geral-12 {
+    width: 100%;
+    height: 235vh;
+    background: rgba(0, 0, 0, 0.958);
+    color: white;
+}
+
+.letras10 {
+   
+    width: 50%;
+    height: 90%;
+    float: left;
+}
+
+
+.letras11 {
+    width: 50%;
+    margin-left: 6%;
+    margin-top: 12%;
+    padding-bottom: 6vh;
+}
+.letras11 li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+.letras11 p {
+    font-size: 1.125rem;
+    padding-bottom: 6vh;
+    font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     color: rgba(255, 255, 255, 0.867);
+
+}
+.letras11 a{
+    color: white;
+    font-size: 1.125rem;
+    text-decoration: none;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    
+}
+.letras11 a:hover {
+    color: purple;
+}
+
+
+.letras12 {
+    width: 50%;
+    height: 90%;
+    float: right;
+}
+
+.cim {
+    padding-right: 3.2vh;
+    background: url(../Img/Nubank2/Seta\ branca\ fundo1.\ preto1\ icone.png);
+    background-size: 20px ;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.lad {
+    margin-top: 3.3%;
+}
+.lad1 {
+    margin-top: 28%;
+}
+.lad2 a {
+    padding-bottom: 1vh;
+    display: inline-block;
+}
+
+.lad2 p {
+    padding: 0;
+}
+
+
+.lad3 {
+    margin-top: 21.5%;
+    width: 24%;
+}
+
+.app {
+    padding-bottom: 2vh;
+}
+
+
+.letras13 {
+    background: black;
+    
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+.letras14 {
+    margin-top: 10vh;
+    outline: 1px solid rgba(255, 255, 255, 0.082);
+    width: 100%;
+    height: 55%;
+    display: flex;
+   
+}
+
+
+.logo1 {
+    
+    width: 10%;
+    height: 100%;
+}
+
+.logo1-1 {
+    width: 65%;
+    height: 50%;
+    margin-left: 6vh;
+    margin-top: 7vh;
+}
+
+.letras15 {
+    color: white;
+   
+    width: 50%;
+    margin-top: 6%;
+    margin-left: 2vh;
+}
+.letras15 p {
+    font-size: 1rem;
+}
+.redes {
+   
+    margin-top: 6%;
+    margin-left: 15%;
+    width: 22%;
+   
+}
+
+.re {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    margin-left: 3vh;
+    transition-duration: 0.3s;
+}
+
+.re:hover {
+    outline: 1px solid white;
+    outline-offset: 0.5vh;
+    
+}
+
+
+
+
