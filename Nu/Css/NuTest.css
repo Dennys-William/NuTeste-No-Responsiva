@@ -893,6 +893,33 @@
     
 }
 
+@media (max-width:1024px){
+    .geral {
+        display: none;
+    }
+   main {
+    display: none;
+   }
+   .geral-12 {
+    display: none;
+   }
+   .letras13 {
+    display: none;
+   }
+
+   .cell {
+    text-align: center;
+    display: block;
+    width: 50%;
+    height: 10vh;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    margin-top: 20%;
+
+   }
+
+}
+
 
 
 
