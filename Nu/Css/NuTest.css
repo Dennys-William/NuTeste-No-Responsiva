@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+.cell {
+    display: none;
+}
 
 .geral {
   display: flex;
